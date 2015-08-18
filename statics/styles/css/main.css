@@ -1,0 +1,125 @@
+body{
+	background-color: #f8f7D9;
+}
+ul{
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+
+
+.cloth{
+	width: 65%;
+	height: 350px;
+	margin: 160px auto;
+	/*position: absolute;*/
+}
+
+.cloth .scroll{
+	/*overflow: hidden;*/
+	width: 85%;
+	height: 350px;
+	margin: 0 auto;
+}
+
+.cloth .scroll ul.mobile {
+	width: 300%;
+	height: 100%;
+	/*margin: 0 auto;*/
+	padding: 0px;
+}
+.cloth .scroll ul.mobile li{
+	width: 33%;
+	height: 350px;
+	padding: 0px;
+	/*margin: 0 auto;*/
+	float: left;
+} 
+
+.outline {
+	/*position: relative;
+	overflow: hidden;*/
+	/*border: 2px solid #000;*/
+}
+.outline .name{
+	width: 367px;
+	height: 148px;
+	margin: 101px auto;
+
+}
+
+.outline .wrap{
+	overflow: hidden;
+	width: 100%;
+	border-top:1px solid #e6e7e1;
+	border-bottom:1px solid #e6e7e1;
+	background-color: #fffff5;
+}
+
+.logo .pic{
+	margin: 0 auto 50px auto;
+	display: block;
+}
+.wrap .email, .pw {
+	margin-left: 10%; 
+	border: none; 
+	width: 90%;
+	height: 50px;
+	font-size: 20px;
+	background-color: #fffff5;
+}
+
+.wrap .email{
+	border-bottom:1px solid #e6e7e1; 
+}
+
+
+.login{
+	width: 100%;
+}
+
+.login .loginBottom{
+	margin:25px auto;
+	background: none;
+	width: 60%;
+	height: 50px;
+	border: 1px solid #867e73;
+	border-radius: 50px; 
+	font-size: 20px;
+	color: #867e73;
+	display: block;
+}
+
+.loginBottom:hover{
+	background-color: #867e73;
+	color: #f8f7d9;
+}
+
+.cloth .scrollLeft, .scrollRight{
+	width: 50px;
+	height: 350px;
+	margin: 125px 0 125px 0;
+}
+
+.cloth .scrollLeft{
+	/*position: relative;
+	left: 0px;
+	overflow: hidden;*/
+	float: left;
+}
+
+.cloth .scrollRight{
+	/*right: 0px;
+	position: relative;
+	overflow: hidden;*/
+	float: right;
+}
+
+.cloth .scrollLeft:hover{
+	background:url(../img/qianxleft1.png) no-repeat;
+}
+
+.cloth .scrollRight:hover{
+	background:url(../img/qianxr1.png) no-repeat;
+}
